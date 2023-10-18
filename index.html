@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Royal Truth</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2023.05.1/pyscript.css" />
+    <script defer src="https://pyscript.net/releases/2023.05.1/pyscript.js"></script>
+</head>
+<body>
+    <h2>Pirate be Speaking</h2>
+    <label>Translate English to pirate lingo:</label><br>
+    <input type="text" id="input" placeholder="Enter english text here..."\>
+    <button py-click="translate()">Translate</button><br>
+    <div id="output"></div>
+    <py-config src="./pyscript.toml"></py-config>
+    <py-script src="./main.py"></py-script>
+</body>
+</html>
